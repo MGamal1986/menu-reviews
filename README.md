@@ -1,6 +1,6 @@
 # Getting Started with npm install
 
-## using [framer motion](https://github.com/framer/motion) to add some animation to menus and [react-bootstrap] (https://react-bootstrap.github.io/) for layout
+## using [framer motion](https://github.com/framer/motion) to add some animation to menus and [react-bootstrap](https://react-bootstrap.github.io/) for layout
 
 ## Available Scripts
 
