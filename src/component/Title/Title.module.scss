@@ -1,0 +1,21 @@
+@import "../../styles/colors";
+
+.Title {
+    color: $titleColor;
+    text-transform: capitalize;
+    font-weight: 700;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: -5px;
+        width: 10%;
+        height: 4px;
+        background: $borderColor;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

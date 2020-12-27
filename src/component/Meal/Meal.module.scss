@@ -1,0 +1,57 @@
+@import "../../styles/colors";
+@import "../../styles/mixin";
+.Meal {
+    display: flex;
+    flex-flow: row;
+    max-width: 560px;
+    height: 170px;
+    margin-bottom: 2rem;
+
+    .Image {
+        border: 3px solid $borderColor;
+        flex-basis: 45%;
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            @media screen and (max-width: 576px) {
+                height: 200px;
+            }
+        }
+        @media screen and (max-width: 576px) {
+            margin-bottom: 1rem;
+        }
+    }
+    .Info {
+        padding-left: 1rem;
+        flex-basis: 55%;
+        .InfoTitle {
+            margin-bottom: 1.25rem;
+            border-bottom: 1px dotted rgba($titleColor, 0.5);
+            padding-bottom: 0.25rem;
+            display: flex;
+            justify-content: space-between;
+            span:first-child {
+                text-transform: capitalize;
+                color: $titleColor;
+                font-size: 1rem;
+                font-weight: 500;
+            }
+            span:last-child {
+                color: $borderColor;
+                font-size: 1rem;
+            }
+        }
+        .Text {
+            color: rgba($titleColor, 0.5);
+            text-transform: capitalize;
+        }
+        @media screen and (max-width: 576px) {
+            padding: 0;
+        }
+    }
+    @media screen and (max-width: 576px) {
+        flex-flow: column;
+        height: auto;
+    }
+}

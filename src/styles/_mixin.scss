@@ -1,0 +1,9 @@
+/*
+    mixins
+*/
+
+// transition mixisn
+
+@mixin easeInOut($time: 0.3s, $function: ease-in-out) {
+    transition: all $time $function;
+}

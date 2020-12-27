@@ -1,0 +1,22 @@
+.Meals {
+    -webkit-animation: fading 0.5s ease-in-out 1;
+    animation: fading 0.5s ease-in-out 1;
+
+    @-webkit-keyframes fading {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fading {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
