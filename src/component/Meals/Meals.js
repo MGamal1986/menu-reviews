@@ -1,6 +1,5 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import { Row } from "react-bootstrap";
-import classes from "./Meals.module.scss";
 import Meal from "../Meal/Meal";
 function Meals({ mealList }) {
     // create ref
